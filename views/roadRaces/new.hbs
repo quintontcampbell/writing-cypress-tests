@@ -1,0 +1,20 @@
+<h1>Add a New Road Race</h1>
+
+<form action="/road-races" method="post" class="new-race-form">
+  <div>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" />
+  </div>
+
+  <div>
+    <label for="miles">Distance in Miles:</label>
+    <input type="number" step="0.1" id="miles" name="miles" />
+  </div>
+
+  <div>
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location" />
+  </div>
+
+  <input class="button" type="submit" value="Save this Race!"/>
+</form>

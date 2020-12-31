@@ -1,0 +1,9 @@
+<h1>Our Favorite Road Races</h1>
+
+<ul class="road-races">
+  {{#each roadRaces}}
+    <li>{{this.name}} - {{this.miles}} Miles</li>
+  {{/each}}
+</ul>
+
+<a class="button" href="/road-races/new">Add a new Road Race</a>

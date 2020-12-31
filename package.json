@@ -1,0 +1,36 @@
+{
+  "name": "acceptance-testing-with-cypress",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon src/app.js",
+    "dev:debug": "./node_modules/.bin/nodemon --inspect-brk src/app.js",
+    "test": "./node_modules/.bin/cypress run",
+    "test:open": "./node_modules/.bin/cypress open",
+    "test:file": "./node_modules/.bin/cypress run --spec",
+    "lint": "./node_modules/.bin/eslint"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "express": "~4.16.0",
+    "express-handlebars": "^3.0.2",
+    "express-session": "^1.16.1",
+    "flash": "^1.1.0",
+    "hbs": "~4.0.1",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "cypress": "^5.5.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.17.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "nodemon": "^2.0.4",
+    "prettier": "^1.17.0"
+  }
+}

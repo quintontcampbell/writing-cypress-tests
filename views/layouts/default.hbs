@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Road Races</title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  {{#each flash }}
+    <p class="{{this.type}}">{{ this.message }}</p>
+  {{/each}}
+
+  {{{body}}}
+</body>
+
+</html>
